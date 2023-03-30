@@ -9,3 +9,8 @@ panjang = 1000
 print("Nilai a = ", a)
 print("Nilai x = ", x)
 print("Nilai panjang = ", panjang)
+
+# Assignment Indirect
+a = 7
+b = a
+print("Nilai b = ", b)
