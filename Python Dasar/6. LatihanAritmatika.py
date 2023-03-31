@@ -1,4 +1,4 @@
-# Latihan Konversi Satuan Temperature fr
+# Latihan Konversi Satuan Temperature
 
 print("\t===PROGRAM KONVERSI TEMPERATURE ===")
 
