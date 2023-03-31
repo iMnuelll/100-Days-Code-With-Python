@@ -1,6 +1,6 @@
 '''
 - Operasi komparasi / perbandingan
-- Setiap hasil dari operasi komparasi adalah Boolean
+- Setiap hasil dari operasi komparasi adalah Boolean (Trus or False)
 - Tanda / Operasi >,<,>=,<=,==,!= dapat bekerja pada syntax literal :
     a == 4 -> a(variabel) memiliki nilai yang berarti akan tersimpan dimemori komputer. 4 adalah literal
 - Operasi is dan is not tidak akan bekerja pada syntax literal. IS dan is not berfungsi untuk membandingkan Variabel atau Objek : 
