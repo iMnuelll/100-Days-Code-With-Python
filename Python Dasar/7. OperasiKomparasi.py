@@ -6,7 +6,7 @@
 - Operasi is dan is not tidak akan bekerja pada syntax literal. IS dan is not berfungsi untuk membandingkan Variabel atau Objek : 
     Contoh benar : a is b
     Contoh salah : a is 4
-- Jika isi dari dua / lebih variabel yang berbeda sama, maka Python akan menyimpannya dimemori yang sama.
+- Jika isi dari dua / lebih variabel yang berbeda sama, maka Python akan menyimpannya dimemori yang sama -> line 64 - 92
 '''
 
 
