@@ -28,61 +28,89 @@ if height > 120 :
 else :
     print("Sorry, you can't ride the rollercoaster")
 
-# # Mengecek angka ganjil dan genap
-# # Which number do you want to check?
-# print("\nMengecek angka ganjil dan genap")
-# number = int(input("Masukkan angkanya : "))
-# # 🚨 Don't change the code above 👆
+# Mengecek angka ganjil dan genap
+# Which number do you want to check?
+print("\nMengecek angka ganjil dan genap")
+number = int(input("Masukkan angkanya : "))
+# 🚨 Don't change the code above 👆
 
-# # Write your code below this line 👇
-# if number % 2 == 1 :
-#   print("This is an odd number.")
-# else :
-#   print("This is an even number.")
+# Write your code below this line 👇
+if number % 2 == 1 :
+  print("This is an odd number.")
+else :
+  print("This is an even number.")
 
-# # BMI 2.0
-# # Enter your height in meters e.g., 1.55
-# height = float(input())
-# # Enter your weight in kilograms e.g., 72
-# weight = int(input())
-# # 🚨 Don't change the code above 👆
+# BMI 2.0
+# Enter your height in meters e.g., 1.55
+height = float(input())
+# Enter your weight in kilograms e.g., 72
+weight = int(input())
+# 🚨 Don't change the code above 👆
 
-# #Write your code below this line 👇
-# bmi_calculation = weight / height**2
-# if bmi_calculation < 18.5 :
-#   print (f"Your BMI is {bmi_calculation}, you are underweight.")
-# elif bmi_calculation > 18.5 and bmi_calculation < 25 :
-#   print (f"Your BMI is {bmi_calculation}, you have a normal weight.")
-# elif bmi_calculation >= 25 and bmi_calculation < 30 :
-#   print(f"Your BMI is {bmi_calculation}, you are slightly overweight.")
-# elif bmi_calculation > 30 and bmi_calculation < 35 :
-#   print(f"Your BMI is {bmi_calculation}, you are obese.")
-# else :
-#   print(f"Your BMI is {bmi_calculation}, you are clinically obese.")
+#Write your code below this line 👇
+bmi_calculation = weight / height**2
+if bmi_calculation < 18.5 :
+  print (f"Your BMI is {bmi_calculation}, you are underweight.")
+elif bmi_calculation > 18.5 and bmi_calculation < 25 :
+  print (f"Your BMI is {bmi_calculation}, you have a normal weight.")
+elif bmi_calculation >= 25 and bmi_calculation < 30 :
+  print(f"Your BMI is {bmi_calculation}, you are slightly overweight.")
+elif bmi_calculation > 30 and bmi_calculation < 35 :
+  print(f"Your BMI is {bmi_calculation}, you are obese.")
+else :
+  print(f"Your BMI is {bmi_calculation}, you are clinically obese.")
 
-# # Pizza Order
-# print("Thank you for choosing Python Pizza Deliveries!")
-# size = input()  # What size pizza do you want? "S", "M", or "L"
-# add_pepperoni = input()  # Do you want pepperoni? "Y" or "N"
-# extra_cheese = input()  # Do you want extra cheese? "Y" or "N"
+# Pizza Order
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input()  # What size pizza do you want? "S", "M", or "L"
+add_pepperoni = input()  # Do you want pepperoni? "Y" or "N"
+extra_cheese = input()  # Do you want extra cheese? "Y" or "N"
 
-# # Your code below this line 👇
-# bill = 0
-# if size == "S":
-#   bill += 15
-# elif size == "M":
-#   bill += 20
-# else:
-#   bill += 25
+# Your code below this line 👇
+bill = 0
+if size == "S":
+  bill += 15
+elif size == "M":
+  bill += 20
+else:
+  bill += 25
 
-# if add_pepperoni == "Y":
-#   if size == "S":
-#     bill += 2
-#   else:
-#     bill += 3
+if add_pepperoni == "Y":
+  if size == "S":
+    bill += 2
+  else:
+    bill += 3
 
-# if extra_cheese == "Y":
-#   bill += 1
+if extra_cheese == "Y":
+  bill += 1
 
-# print(f"Your final bill is: ${bill}.")
-# # Pizza Order
+print(f"Your final bill is: ${bill}.")
+# Pizza Order
+
+# Love Calculator
+print("The Love Calculator is calculating your score...")
+name1 = input()  # What is your name?
+name2 = input()  # What is their name?
+# Your code below this line 👇
+combined_names = name1 + name2
+lower_names = combined_names.lower()
+t = lower_names.count("t")
+r = lower_names.count("r")
+u = lower_names.count("u")
+e = lower_names.count("e")
+first_digit = t + r + u + e
+
+l = lower_names.count("l")
+o = lower_names.count("o")
+v = lower_names.count("v")
+e = lower_names.count("e")
+second_digit = l + o + v + e
+
+score = int(str(first_digit) + str(second_digit))
+if (score < 10) or (score > 90):
+  print(f"Your score is {score}, you go together like coke and mentos.")
+elif (score >= 40) and (score <= 50):
+  print(f"Your score is {score}, you are alright together.")
+else:
+  print(f"Your score is {score}.")
+# Love Calculator
