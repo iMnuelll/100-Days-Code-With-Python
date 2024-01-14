@@ -1,18 +1,25 @@
 # If/Else & Conditional Operator
 print("Welcome to the rollercoaster!!!")
 height = int(input("What is your height in cm? "))
-
+bill = 0 
 # Conditional Operator : >, <, >=, <=, ==, !=
 if height > 120 :
     print("You can ride the rollercoaster")
     # Contoh nested if
     age = int(input("How old are you? "))
     if age < 12 :
-       print("You have to pay $5")
+       bill = 5
+       print(f"Child tickets are ${bill}")
     elif age >= 12 and age <= 18 :
-       print("You have to pay $7")
+       bill = 7
+       print(f"Youth tickets are ${bill}")
     else :
-       print("You have to pay $12")
+       bill = 12
+       print(f"Adults tickets are ${bill}")
+    want_photos = input("Would you like to take photos? (Y/N) : ")
+    if want_photos == "Y" :
+       bill += 3
+    print(f"Your tickets are ${bill}")
 else :
     print("Sorry, you can't ride the rollercoaster")
 
