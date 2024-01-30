@@ -6,3 +6,4 @@
 - **Day 4 :** Lists
 - **Day 5 :** For Loops
 - **Day 6 :** While Loops
+- **Day 7 :** Hangman Games
