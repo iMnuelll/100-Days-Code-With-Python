@@ -8,3 +8,4 @@
 - **Day 6 :** While Loops
 - **Day 7 :** Hangman Games
 - **Day 8 :** Function
+- **Day 9 :** Dictionaries and Nesting
