@@ -1,7 +1,7 @@
 import os
-import art
+from art import logo
 
-print(art.logo)
+print(logo)
 biddersData = []
 loops = False
 
