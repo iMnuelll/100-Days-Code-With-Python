@@ -9,3 +9,4 @@
 - **Day 7 :** Hangman Games
 - **Day 8 :** Function
 - **Day 9 :** Dictionaries and Nesting
+- **Day 10 :** Functions With Output
