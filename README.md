@@ -11,3 +11,4 @@
 - **Day 9 :** Dictionaries and Nesting
 - **Day 10 :** Functions With Output
 - **Day 11** : Black Jack Project
+- **Day 12** : Scope and Number Guessing Game
