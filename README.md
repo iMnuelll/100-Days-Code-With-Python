@@ -12,3 +12,4 @@
 - **Day 10 :** Functions With Output
 - **Day 11** : Black Jack Project
 - **Day 12** : Scope and Number Guessing Game
+- **Day 13** : Debugging
