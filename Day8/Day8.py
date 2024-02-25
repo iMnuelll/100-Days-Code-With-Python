@@ -33,3 +33,14 @@ def prime_checker(number) :
         print(f"{number} is not a prime number")
 n = int(input("Input your number from 1 - 100 : "))
 prime_checker(number = n)
+
+# New Email
+def replace_domain(email, old_domain, new_domain):
+    if "@" + old_domain in email:
+        index = email.index("@" + old_domain)
+        new_email = email[:index] + "@" + new_domain
+        return new_email
+    return email
+
+result = replace_domain("imanuel@gmail.com", "gmail", "yahoo.com")
+print(result)

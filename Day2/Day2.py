@@ -58,3 +58,11 @@ age = input()
 # Write your code below this line 👇
 hitung_minggu = (90 - int(age)) * 52
 print(f"You have {hitung_minggu} weeks left.")
+
+# String Format
+fruit = "peaches"
+weight = 3.0
+per_pound = 2.99
+
+output = "{1} are {2} per pound, and you have {0} pounds of {1}.".format(weight, fruit, per_pound)
+print(output)

@@ -1,10 +1,10 @@
 # 100 Days Code With Python
 
 - **Day 1 :** Variable
-- **Day 2 :** Data Types
+- **Day 2 :** Data Types + String Format
 - **Day 3 :** Logical Operators
 - **Day 4 :** Lists
-- **Day 5 :** For Loops
+- **Day 5 :** For Loops + Slicing + Recursive
 - **Day 6 :** While Loops
 - **Day 7 :** Hangman Games
 - **Day 8 :** Function
