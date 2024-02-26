@@ -1,6 +1,6 @@
 import os
 
-dir = "./Basic Python/100-Days-Code-with-Python"
+dir = "./100-Days-Code-with-Python"
 
 for name in os.listdir(dir) :
     """
