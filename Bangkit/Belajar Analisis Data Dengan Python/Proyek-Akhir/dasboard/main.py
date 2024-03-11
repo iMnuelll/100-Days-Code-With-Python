@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import os
 
 f = "day_df.csv"
-# file_path = os.path.join(os.getcwd(), relative_path)
 day_df = pd.read_csv(f)
 
 
