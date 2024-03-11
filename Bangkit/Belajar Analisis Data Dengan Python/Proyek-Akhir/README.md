@@ -7,4 +7,5 @@ Repository ini berisi proyek analisis data yang saya kerjakan setelah belajar de
 - Latihan_analisis_data.ipynb : File ini berisi analisis data.
 
 ## Screenshot Dashboard sederhana menggunakan streamlit
-![Screenshot 2024-03-11 171058](https://github.com/iMnuelll/Study-Machine-Learning/assets/107970871/fb21c6cc-38d5-4835-b982-9932afa68400)
+
+![Screenshot 2024-03-11 172235](https://github.com/iMnuelll/Study-Machine-Learning/assets/107970871/3d997a2b-b285-440c-a1df-a0b5af6ef0c8)
