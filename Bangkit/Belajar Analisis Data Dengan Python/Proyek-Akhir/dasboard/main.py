@@ -2,12 +2,16 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
-f = open(r"C:\Users\Imanuel Uneputty\Documents\Study-Machine-Learning\Bangkit\Belajar Analisis Data Dengan Python\Proyek-Akhir\dasboard\day_df.csv")
+f = "day_df.csv"
+# file_path = os.path.join(os.getcwd(), relative_path)
 day_df = pd.read_csv(f)
 
 
 colors = ["#D3D3D3", "#D3D3D3", "#72BCD4"]
+st.title("Customer Count Performance")
+
 
 customer_in_2012_df = day_df[day_df['yr'] == 2012].groupby("season").cnt.sum().sort_values(ascending=False).reset_index()
 fig = plt.subplots(figsize=(10, 6))
@@ -25,5 +29,6 @@ plt.title("Customer Count by Workingday")
 plt.ylabel("Customer Count")
 plt.xlabel("Working Day")
 plt.show()
+
 
 st.pyplot(plt)
