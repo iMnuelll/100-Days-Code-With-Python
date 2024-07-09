@@ -35,6 +35,7 @@ def game() :
         while account_a == account_b :
             account_b = get_random_account()
         print(f"Compare A: {format_data(account_a)}.")
+        print(vs)
         print(f"Compare B: {format_data(account_b)}.")
         guess = input("Who has more followers? Type 'A' or 'B': ").lower()
         a_follower_count = account_a["follower_count"]
@@ -48,6 +49,6 @@ def game() :
             print(f"You are right! Current score: {score}\n")
         else :
             games_should_continue = False
-            print(f" Sorry that's wrong! Final Score: {score}")
+            print(f"Sorry that's wrong! Final Score: {score}")
         
 game()

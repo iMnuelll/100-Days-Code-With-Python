@@ -34,7 +34,7 @@ if user_choice > len(game) :
   print("You have enter the wrong number")
 else :
     print(game[user_choice])
-    computer_choice = random.randint(0, 2)
+    computer_choice = random.randint(0,2)
     print("Computer chose:")
     print(game[computer_choice])
 

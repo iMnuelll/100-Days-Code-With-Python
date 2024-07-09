@@ -10,6 +10,10 @@
 - **Day 8 :** Function
 - **Day 9 :** Dictionaries and Nesting
 - **Day 10 :** Functions With Output
-- **Day 11** : Black Jack Project
-- **Day 12** : Scope and Number Guessing Game
-- **Day 13** : Debugging
+- **Day 11 :** Black Jack Project
+- **Day 12 :** Scope and Number Guessing Game
+- **Day 13 :** Debugging
+- **Day 14 :** Higher Lower Game Project
+- **Day 15 :** Local Development Environment Setup & the Coffe Machine
+- **Day 16 :** Object Oriented Programming
+- **Day 17 :** The Quiz Project (OOP)

@@ -23,4 +23,5 @@ for student in student_scores :
   student_grades[student] = grades
 
 # 🚨 Don't change the code below 👇
-print(student_grades)
+for student in student_scores :
+  print(f"{student}: {student_grades[student]}")
