@@ -17,3 +17,5 @@
 - **Day 15 :** Local Development Environment Setup & the Coffe Machine
 - **Day 16 :** Object Oriented Programming
 - **Day 17 :** The Quiz Project (OOP)
+- **Day 18 :** Turtle and the GUI
+- **Day 19 :** Instances, State, and Higher Order Functions
