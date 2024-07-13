@@ -19,3 +19,5 @@
 - **Day 17 :** The Quiz Project (OOP)
 - **Day 18 :** Turtle and the GUI
 - **Day 19 :** Instances, State, and Higher Order Functions
+- **Day 20 :** Snake Game Part 1
+- **Day 21 :** Snake Game Part 2
