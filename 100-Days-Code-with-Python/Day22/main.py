@@ -13,7 +13,7 @@ ball = Ball()
 
 screen.bgcolor("black")
 screen.setup(width=SCREEN_WIDTH, height=SCREEN_HEIGHT)
-screen.title("PONG")
+screen.title("PING PONG")
 screen.tracer(0)
 
 screen.listen()
