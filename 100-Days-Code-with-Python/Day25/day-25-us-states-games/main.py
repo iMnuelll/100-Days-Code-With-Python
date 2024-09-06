@@ -7,7 +7,6 @@ screen.title("U.S. State Game")
 image = 'blank_states_img.gif'
 screen.addshape(image)
 turtle.shape(image)
-screen.tracer(0)
 
 # Read the data
 data = pd.read_csv("50_states.csv")
@@ -33,6 +32,12 @@ while len(guessed_states) < 50:  # Game continues until all 50 states are guesse
     
     # If the player wants to exit, break the loop
     if question == "Exit":
+        missing_states = []
+        for state in state_list:
+            if state not in guessed_states:
+                missing_states.append(state)
+        new_data = pd.DataFrame(missing_states)
+        new_data.to_csv("missing_states.csv", index=False)
         break
     
     if question in state_list and question not in guessed_states:
@@ -46,7 +51,3 @@ while len(guessed_states) < 50:  # Game continues until all 50 states are guesse
         # Write the state name at the correct position
         writer.goto(x, y)
         writer.write(question, align="center", font=("Arial", 6, "normal"))
-    
-    screen.update()
-
-screen.exitonclick()
