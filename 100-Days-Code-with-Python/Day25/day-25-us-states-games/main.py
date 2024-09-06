@@ -23,7 +23,10 @@ writer.hideturtle()
 
 
 def screen_answer():
-    """The screen_answer function is designed to prompt the user to input a state name using a pop-up input box. The prompt displays the number of correctly guessed states so far, out of the total number of states. The user’s input is automatically converted to title case (i.e., capitalizing the first letter of each word). The function then returns the user's input."""
+    """The screen_answer function is designed to prompt the user to input a state name using a pop-up input box. 
+    The prompt displays the number of correctly guessed states so far, out of the total number of states. 
+    The user’s input is automatically converted to title case (i.e., capitalizing the first letter of each word). 
+    The function then returns the user's input."""
     answer_state = screen.textinput(title=f"{len(guessed_states)} / {len(state_list)} States Correct", prompt="What's another state's name?").title()
     return answer_state
 
@@ -32,7 +35,10 @@ game_is_on = True
 """List of the correct states guess by the user"""
 guessed_states = []
 
-""""This while loop continuously prompts the user to guess U.S. state names until they have correctly guessed all 50 states or choose to exit. The guessed states are tracked, and the state name is written at its corresponding geographic location on the screen if guessed correctly. If the player decides to exit by typing "Exit", the loop will terminate and save the list of unguessed states to a CSV file."""
+""""This while loop continuously prompts the user to guess U.S. state names until they have correctly guessed all 50 
+states or choose to exit. The guessed states are tracked, and the state name is written at its corresponding geographic 
+location on the screen if guessed correctly. If the player decides to exit by typing "Exit", the loop will terminate and 
+save the list of unguessed states to a CSV file."""
 while len(guessed_states) < 50:
     question = screen_answer()
     
