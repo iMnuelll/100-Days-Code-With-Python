@@ -44,10 +44,7 @@ while len(guessed_states) < 50:
     
     # If the player wants to exit, break the loop
     if question == "Exit":
-        missing_states = []
-        for state in state_list:
-            if state not in guessed_states:
-                missing_states.append(state)
+        missing_states = [state for state in state_list if state not in guessed_states]
         new_data = pd.DataFrame(missing_states)
         new_data.to_csv("missing_states.csv", index=False)
         break
