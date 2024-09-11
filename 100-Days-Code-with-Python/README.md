@@ -66,3 +66,24 @@ This repository contains a 100-day coding challenge focused on Python. Each day 
 
 ### Day 21: Snake Game Part 2
 - **Continuing the development of the Snake game.**
+
+### Day 22: Ping Pong Game With Turtle Module
+- **Make a simple Ping Pong game with the Turtle module.
+
+### Day 23: Turtle Crossing Game
+- **Make a simple turtle crossing game with the Turtle module .
+
+### Day 24: File, Directories, and Path
+- **Start to learn about file, directories, and path in Python. In this lesson i also updated the Snake Game to save the high score.**
+
+### Day 25: Working with CSV Data and the Pandas Library
+- **In this lesson I learned about how to work with CSV and Pandas in Python. And managed to create a simple game to guess the names of the states in the USA.**
+
+### Day 26: Make a NATO Alphabet Conversion
+- **In this lesson I make a simple NATO Alphabet Conversion with the CSV file extension and Pandas Library.**
+
+### Day 27: Tkinter, *args, **kwargs, and Creating GUI Programs
+- **In this lesson I start to learn about args (non-keywords arguments) and kwargs (keywords arguments. And start to learn about the GUI Programs**
+
+### Day 28: Pomodoro GUI Application
+- **Make a simple Pomodoro App to help my productivity.**
