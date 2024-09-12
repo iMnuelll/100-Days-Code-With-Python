@@ -87,3 +87,6 @@ This repository contains a 100-day coding challenge focused on Python. Each day 
 
 ### Day 28: Pomodoro GUI Application
 - **Make a simple Pomodoro App to help my productivity.**
+  
+### Day29: Building a Password Manager GUI App with Tkinter
+- **Make a simple password manager GUI app with the generate password feature**
