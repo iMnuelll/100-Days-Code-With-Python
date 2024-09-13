@@ -89,4 +89,7 @@ This repository contains a 100-day coding challenge focused on Python. Each day 
 - **Make a simple Pomodoro App to help my productivity.**
   
 ### Day29: Building a Password Manager GUI App with Tkinter
-- **Make a simple password manager GUI app with the generate password feature**
+- **Make a simple password manager GUI app with the generate password feature.**
+
+### Day30: Updated the Password Manager and NATO Alphabet
+- **Updated Password Manager and Nato Alphabet prject with Catching Exception json file.**
