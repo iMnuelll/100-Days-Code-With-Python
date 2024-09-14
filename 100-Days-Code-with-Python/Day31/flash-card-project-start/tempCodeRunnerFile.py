@@ -1,0 +1,1 @@
+  window.after(3000, next_card)

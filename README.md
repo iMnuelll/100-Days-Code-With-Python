@@ -93,3 +93,6 @@ This repository contains a 100-day coding challenge focused on Python. Each day 
 
 ### Day30: Updated the Password Manager and NATO Alphabet
 - **Updated Password Manager and Nato Alphabet prject with Catching Exception json file.**
+  
+### Day 31: Flashcard App for Learning French Words
+- **Started building a Flashcard App using Tkinter. It displays French words and their English translations. Added functionality to remove known words from the learning list.**
